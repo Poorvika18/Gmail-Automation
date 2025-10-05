@@ -2,6 +2,8 @@
 
 A **Python-based Gmail automation tool** that fetches emails via the Gmail API, stores them in a relational database, and applies **rule-based actions** like marking emails as read or moving them to specific labels.
 
+Demo Video: https://drive.google.com/file/d/1GzCHeboliUiXu1i9bSEoCQqcM_DzGRAC/view?usp=drive_link
+
 ---
 
 ## Features
