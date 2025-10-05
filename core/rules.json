@@ -1,0 +1,37 @@
+{
+    "rules_predicate": "All",
+    "rules": [
+      {
+        "name": "Move Groww mails",
+        "conditions": [
+          {
+            "field": "From",
+            "predicate": "contains",
+            "value": "groww.in"
+          }
+        ],
+        "actions": [
+          {
+            "action": "move_to_label",
+            "label": "Finance/Groww"
+          }
+        ]
+      },
+      {
+        "name": "Mark Mutual Fund updates as read",
+        "conditions": [
+          {
+            "field": "From",
+            "predicate": "contains",
+            "value": "noreply@groww.in"
+          }
+        ],
+        "actions": [
+          {
+            "action": "mark_as_read"
+          }
+        ]
+      }
+    ]
+  }
+  
